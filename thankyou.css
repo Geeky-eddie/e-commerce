@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0;
+    height: 100%;
+    max-width: 1349px;
+    position: relative;
+}
+
+.navli, li ,a{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32.4px;
+    text-decoration: none;
+    color: black;
+    transition: 0.7s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+}
+
+/* .navli li a:hover,
+.navli li a.active{
+    color: #292929;
+    text-decoration: underline;
+    font-size: 20px;
+} */
+.navcontents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    width: 100%;
+    color: #292929;
+    /* background: rgb(238, 237, 237); */
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07); */
+    /* position: fixed; */
+
+}
+.logo{
+    position: absolute;
+    width: 113px;
+    height: 90px;
+    left: 153px;
+    top: 46px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 90px;
+}
+.navpos{
+    position: absolute;
+    top: 46px;
+    left: 402px;
+    color: #292929;
+}
+.icons{
+    width: 28px;
+    height: 28px;
+    color: #333333;
+}
+.icons1{
+    display: flex;
+    position: absolute;
+    top: 55px;
+    left: 998px;
+    
+}
+form {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    text-align: center;
+  }
+  
+  button[type="submit"] {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.ell7{
+    position: absolute;
+    top: -3px;
+    left: -2px;
+}
+.ell8{
+    position: absolute;
+    top: -2px;
+    left: -4px;
+}
+.woman{
+    position: absolute;
+    width: 454.18px;
+    height: 405.52px;
+    left: 493px;
+    top: 214.15px;
+}
+.thanks{
+    position: absolute;
+    font-family: 'Satoshi';
+    top: 667px;
+    left: 511px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40.552px;
+    line-height: 156.7%;
+    color: #000000;
+}
+.thanks1{
+    position: absolute;
+    top: 737px;
+    left: 494px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30.414px;
+    line-height: 156.7%;
+    color: #000000;
+}
+.thanks2{
+    position: absolute;
+    top: 728px;
+    left: 914px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30.414px;
+    line-height: 156.7%;
+    color: #0b38d9;
+}
+.celeb{
+    position: absolute;
+    top: 559px;
+    left: 853px;
+}

@@ -1,0 +1,512 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0;
+    height: 100%;
+    max-width: 1349px;
+    position: relative;
+}
+
+.navli, li ,a{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32.4px;
+    text-decoration: none;
+    color: black;
+    transition: 0.7s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+}
+
+.navli li a:hover,
+.navli li a.active{
+    color: #292929;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.navcontents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    width: 100%;
+    color: #292929;
+    /* background: rgb(238, 237, 237); */
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07); */
+    /* position: fixed; */
+
+}
+.logo{
+    position: absolute;
+    width: 113px;
+    height: 90px;
+    left: 153px;
+    top: 2px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 90px;
+}
+.navpos{
+    position: absolute;
+    top: 1px;
+    left: 402px;
+    color: #292929;
+}
+.icons{
+    width: 28px;
+    height: 28px;
+    color: #333333;
+}
+.icons1{
+    display: flex;
+    position: absolute;
+    top: 13px;
+    left: 998px;
+    
+}
+.pgtxt{
+    position: absolute;
+    width: 499px;
+height: 52px;
+left: 120px;
+top: 201px;
+color: #BCB7B7;
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 52px;
+}
+.difftxt{
+    position: absolute;
+    top: 1px;
+    left: 308px;
+    color: black;
+}
+.box{
+    position: absolute;
+    width: 1155px;
+    height: 918px;
+    left: 120px;
+    top: 334px;
+    
+    border: 1px solid #333333;
+}
+.rec230{
+    position: absolute;
+    height: 865px;
+    width: 525px;
+    left: 37px;
+    top: 34px;
+    border-radius: 0px;
+    /* left: 9.93%; */
+    right: 53.61%;
+    /* top: 15.38%; */
+    bottom: 47.45%;
+}
+.vr{
+    width: 1px;
+    background-color: black;
+    height: 100%;
+    border-left: 1px solid black;
+    position: absolute;
+    left: 596px;
+}
+.p{
+position: absolute;
+width: 374px;
+height: 45px;
+left: 636px;
+top: 9px;
+}
+.boolean{
+    position: absolute;
+    font-family: Satoshi;
+font-size: 46px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+top: 53px;
+    left: -14px;
+
+}
+.ethprice{
+    position: absolute;
+width: 70px;
+height: 63px;
+left: 417px;
+    top: 48px;
+
+font-family: 'STIX Two Text';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 157.6%;
+}
+.eth{
+    position: absolute;
+    width: 33px;
+    height: 40.94px;
+    top: 10px;
+    left: -50px;
+}
+.ndtxt{
+    position: absolute;
+    top: 215px;
+    left: 644px;
+    max-width: 500px;
+}
+.creat{
+    width: 116px;
+height: 29px;
+position: absolute;
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 97.6%;
+}
+
+.ali{
+    position: absolute;
+    left: 112px;
+    top: -7px;
+    white-space: nowrap;
+}
+.ndtxt  .creat  .ali a{
+    color: #4693ED;
+    text-decoration: none;
+}
+.made{
+    position: absolute;
+    top: 273px;
+    left: 644px;
+    width: 134px;
+height: 23px;
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 97.6%;
+}
+.total{
+    position: absolute;
+    top: 337px;
+    left: 644px;
+height: 35px;
+
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 97.6%;
+}
+.add{
+    position: absolute;
+    top: 409px;
+    left: 644px;
+    height: 35px;
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 97.6%;
+}
+.btn1{
+    position: absolute;
+    top: 491px;
+    left: 644px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24.0042px 87.7654px;
+    gap: 7.5px;
+    /* position: absolute; */
+    width: 273.53px;
+    height: 65.01px;
+    /* left: 722px; */
+    /* top: 820px; */
+    background: rgb(54 98 223);
+    border-radius: 3.00052px;
+    cursor: pointer;
+    
+}
+.btn2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+    position: absolute;
+    /* top: 10px; */
+    padding: 0 0 0 49px;
+    cursor: pointer;
+}
+.tocart{
+    position: absolute;
+    top: 501px;
+    left: 822px;
+    color: #fff;
+    font-size: 30px;
+}
+.recbox{
+    position: absolute;
+    top: 492px;
+    left: 934px;
+    height: 63px;
+}
+.heartred{
+    position: absolute;
+    top: 499px;
+    left: 960px;
+    font-size: 35px;
+}
+.dd{
+    position: absolute;
+    top: 642px;
+    left: 599px;
+}
+.dd1{
+    position: absolute;
+    top: 754px;
+    left: 597px;
+}
+.dd2{
+    position: absolute;
+    top: 856px;
+    left: 595px;
+}
+.ddbtn{
+    width: 165px;
+height: 31px;
+
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 97.6%;
+}
+.btn{
+    /* outline: 0; */
+    box-shadow: 0 0 0 0rem rgba(253, 253, 253, 0.25);
+    height: 0px;
+    width: 0px;
+    /* display: none; */
+    padding: 0 0 0 54px;
+
+}
+.btn.focus, .btn:focus {
+    display: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+.hr1{
+    position: absolute;
+    width: 557px;
+    height: 0px;
+    left: 595px;
+    top: 148px;
+    border: 1px solid #333333;
+    
+}.hr2{
+    position: absolute;
+    width: 557px;
+    height: 0px;
+    left: 595px;
+    top: 703px;
+    border: 1px solid #333333;
+    
+}.hr3{
+    position: absolute;
+    width: 557px;
+    height: 0px;
+    left: 595px;
+    top: 598px;
+    border: 1px solid #333333;
+    
+}
+.hr4{
+    position: absolute;
+    width: 557px;
+    height: 0px;
+    left: 595px;
+    top: 812px;
+    border: 1px solid #333333;
+}
+.card {
+    position: relative;
+    z-index: 999;
+}
+.epmo{
+    position: absolute;
+    width: 1155px;
+    height: 114px;
+    left: 120px;
+    top: 1443px;
+    box-shadow: 20px 20px 30px hwb(0deg 4% 96% / 28%);
+    background: #fbf7f7;
+    border-radius: 15px;
+}
+.epmotxt{
+    position: absolute;
+width: 476px;
+height: 31px;
+left: 146px;
+top: 1484px;
+
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 97.6%;
+}
+.dnarrow1{
+    position: absolute;
+    top: 25px;
+    left: 206px;
+}
+.dnarrow2{
+    position: absolute;
+    top: 25px;
+    left: 135px;
+}
+.dnarrow3{
+    position: absolute;
+    top: 25px;
+    left: 159px;
+}
+.circ1{
+    position: absolute;
+width: 59px;
+height: 59px;
+left: 1093px;
+top: 1470px;
+}
+.circ2{
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    left: 1169px;
+    top: 1470px;
+}
+.arrlft{
+  
+    position: absolute;
+    left: 1102px;
+    top: 1476.419189453125px;
+}
+.arrryt{
+    position: absolute;
+    left: 1183px;
+    top: 1476.419189453125px;
+}
+.smallbox{
+    position: absolute;
+    height: 376px;
+    width: 395px;
+    left: 120px;
+    top: 1658px;
+    border: 1px solid #333333;
+}
+.smallbox1{
+    position: absolute;
+    height: 376px;
+    width: 395px;
+    left: 934px;
+    top: 1658px;
+    border: 1px solid #333333;
+}
+.smallbox2{
+    position: absolute;
+    height: 376px;
+    width: 395px;
+    left: 527px;
+    top: 1658px;
+    border: 1px solid #333333;
+}
+.smbx{
+    display: flex;
+}
+.smallimg1{
+    position: absolute;
+    height: 317px;
+    width: 344px;
+    object-fit: cover;
+    padding: 49px 0 0 34px;
+    top: 1px;
+    left: 10px;
+}
+.heart1{
+    position: absolute;
+    font-size: 30px;
+    left: 326px;
+    top: 4px;
+}
+.sassy{
+    position: absolute;
+    width: 80px;
+    height: 31px;
+    left: 44px;
+    top: 333px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 97.6%;
+}
+.figure1{
+    position: absolute;
+    left: 300px;
+    top : 333px;
+    width: 80px;
+    height: 31px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 97.6%;
+}
+.ethicon{
+    position: absolute;
+    left: 248px;
+    top: 330px;
+}
+.exall{
+    position: absolute;
+    width: 313px;
+    height: 91px;
+    left: 528px;
+    top: 2158px;
+    border-radius: 16px;
+    border: 4px solid  #78A3AD;
+    
+}
+.expall{
+    position: absolute;
+    width: 168px;
+    height: 35px;
+    left: 616px;
+    top: 2189px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 97.6%;
+    cursor: pointer;
+    background: linear-gradient(94.97deg, #78A3AD 24.64%, rgba(192, 86, 9, 0.49) 118.54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.red{
+    color: red;
+}
